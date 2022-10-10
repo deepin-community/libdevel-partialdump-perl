@@ -1,0 +1,127 @@
+libdevel-partialdump-perl (0.20-1) unstable; urgency=medium
+
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+  * Remove Jonathan Yu from Uploaders. Thanks for your work!
+  * Remove Jotam Jr. Trejo from Uploaders. Thanks for your work!
+  * Remove Ryan Niebur from Uploaders. Thanks for your work!
+
+  * Import upstream version 0.20.
+  * Add /me to Uploaders.
+  * Declare compliance with Debian Policy 4.1.1.
+  * Drop unneeded version constraint from libnamespace-clean-perl
+    (build) dependency.
+  * Update build dependencies.
+
+ -- gregor herrmann <gregoa@debian.org>  Tue, 21 Nov 2017 19:12:26 +0100
+
+libdevel-partialdump-perl (0.18-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ Damyan Ivanov ]
+  * Claim conformance with Policy 3.9.7
+  * Swap alternatives in Test::Simple build-dependency
+
+ -- Damyan Ivanov <dmn@debian.org>  Sun, 21 Feb 2016 20:39:56 +0000
+
+libdevel-partialdump-perl (0.18-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ gregor herrmann ]
+  * Strip trailing slash from metacpan URLs.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+
+  [ gregor herrmann ]
+  * Update Test::use::ok build dependency.
+
+  [ Lucas Kanashiro ]
+  * Add debian/upstream/metadata
+  * Import upstream version 0.18
+  * Declare compliance with Debian policy 3.9.6
+  * Add autopkgtest-pkg-perl
+  * Remove libmodule-build-tiny-perl from b-d
+
+ -- Lucas Kanashiro <kanashiro.duarte@gmail.com>  Fri, 21 Aug 2015 08:13:04 -0300
+
+libdevel-partialdump-perl (0.17-1) unstable; urgency=low
+
+  * Team upload.
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Salvatore Bonaccorso ]
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ Axel Beckert ]
+  * debian/copyright: migrate pre-1.0 format to 1.0 using "cme fix dpkg-
+    copyright"
+
+  [ gregor herrmann ]
+  * New upstream release.
+  * Update year of upstream copyright.
+  * Update (build) dependencies.
+  * Install new CONTRIBUTING file.
+  * Declare compliance with Debian Policy 3.9.5.
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 25 Dec 2013 15:58:54 +0100
+
+libdevel-partialdump-perl (0.15-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control: bump dependency on libnamespace-clean-perl to 0.20
+  * Bump DH compat level to 8
+
+ -- Jotam Jr. Trejo <jotamjr@debian.org.sv>  Wed, 11 May 2011 21:53:09 -0600
+
+libdevel-partialdump-perl (0.14-1) unstable; urgency=low
+
+  * New upstream release
+  * Switch to 3.0 (quilt) source format
+  * debian/control: drop useless versioned dependency for 
+    libnamespace-clean-perl
+  * debian/copyright: refresh according to DEP 5 revision 135
+  * debian/control: bump Standards Version to 3.9.2
+  * Add myself to Uploaders and Copyright
+
+ -- Jotam Jr. Trejo <jotamjr@debian.org.sv>  Thu, 28 Apr 2011 00:26:41 -0600
+
+libdevel-partialdump-perl (0.13-1) unstable; urgency=low
+
+  * New upstream release
+  * Moose is now used directly rather than Any::Moose
+
+ -- Jonathan Yu <jawnsy@cpan.org>  Sat, 09 Jan 2010 12:59:01 -0500
+
+libdevel-partialdump-perl (0.11-1) unstable; urgency=low
+
+  [ Jonathan Yu ]
+  * New upstream release
+    + Minor documentation fixes
+    + New version control notice
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Changed: Replace versioned (build-)dependency on
+    perl (>= 5.6.0-{12,16}) with an unversioned dependency on perl (as
+    permitted by Debian Policy 3.8.3).
+
+  [ Ryan Niebur ]
+  * Update jawnsy's email address
+  * Update ryan52's email address
+
+  [ Nathan Handler ]
+  * debian/watch: Update to ignore development releases.
+
+ -- Jonathan Yu <jawnsy@cpan.org>  Thu, 05 Nov 2009 18:41:56 -0500
+
+libdevel-partialdump-perl (0.08-1) unstable; urgency=low
+
+  * Initial Release. (Closes: #529236)
+
+ -- Jonathan Yu <frequency@cpan.org>  Mon, 18 May 2009 21:42:38 -0400

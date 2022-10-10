@@ -1,0 +1,33 @@
+Source: libdevel-partialdump-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper (>= 9)
+Build-Depends-Indep: perl,
+                     libclass-tiny-perl,
+                     libnamespace-clean-perl,
+                     libsub-exporter-perl,
+                     libtest-warnings-perl,
+                     perl (>= 5.21.6) | libtest-simple-perl (>= 1.001010)
+Standards-Version: 4.1.1
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libdevel-partialdump-perl.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-perl/packages/libdevel-partialdump-perl.git
+Homepage: https://metacpan.org/release/Devel-PartialDump
+
+Package: libdevel-partialdump-perl
+Architecture: all
+Depends: ${perl:Depends},
+         ${misc:Depends},
+         libclass-tiny-perl,
+         libnamespace-clean-perl,
+         libsub-exporter-perl
+Description: Perl module to dump subroutine parameters concisely
+ Devel::PartialDump is similar in nature to Data::Dumper, however, it is
+ optimized for the common case of bug reporting with complex data structures.
+ Outputting a string containing a complex data structure can yield rather
+ useless results, since the structures are stringified.
+ .
+ This module optionally overrides Carp's routines to provide a concise dump of
+ a variable's contents instead of a simple stringification with warn, etc.
